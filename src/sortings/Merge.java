@@ -1,17 +1,19 @@
+package sortings;
+
 import java.util.Arrays;
 /*
    Advantages
 
-  Stability : Merge sort is a stable sorting algorithm, which means it maintains the relative order of equal elements in the input array.
-  Guaranteed worst-case performance: Merge sort has a worst-case time complexity of O(N logN) , which means it performs well even on large datasets.
+  Stability : sortings.Merge sort is a stable sorting algorithm, which means it maintains the relative order of equal elements in the input array.
+  Guaranteed worst-case performance: sortings.Merge sort has a worst-case time complexity of O(N logN) , which means it performs well even on large datasets.
   Simple to implement: The divide-and-conquer approach is straightforward.
   Naturally Parallel : We independently merge subarrays that makes it suitable for parallel processing.
 
   Disadvantages
 
-  Space complexity: Merge sort requires additional memory to store the merged sub-arrays during the sorting process.
-  Not in-place: Merge sort is not an in-place sorting algorithm, which means it requires additional memory to store the sorted data. This can be a disadvantage in applications where memory usage is a concern.
-  Merge Sort is Slower than QuickSort in general as QuickSort is more cache friendly because it works in-place.
+  Space complexity: sortings.Merge sort requires additional memory to store the merged sub-arrays during the sorting process.
+  Not in-place: sortings.Merge sort is not an in-place sorting algorithm, which means it requires additional memory to store the sorted data. This can be a disadvantage in applications where memory usage is a concern.
+  sortings.Merge Sort is Slower than QuickSort in general as QuickSort is more cache friendly because it works in-place.
  */
 public class Merge {
     public static void main(String[] args) {
